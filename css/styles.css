@@ -4,7 +4,8 @@
 
 .container-div {
 	background-color: rgb(61,47,135);
-	height: 400px;
+	height: 50vh;
+	
 }
 
 /* Header Section */
@@ -12,6 +13,7 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	height: 100%;
+	position: relative;
 }
 
 .header {
@@ -61,4 +63,14 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.custom-shape-divider-bottom-1626147328 {
+    position: absolute;
+    bottom: 50vh;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+	/* background-color: #DDE5E8; */
 }
